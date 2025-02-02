@@ -48,7 +48,7 @@ Cenário 3 - Acessar um departamento específico
     [Documentation]    Acessa um departamento e verifica se a navegação foi bem-sucedida.
     [Tags]    categoria    amazon
     Log    Acessando a categoria: ${DEPARTAMENTO}
-    ${pagina_categoria}=    Set Variable    Electronics - Amazon
+    ${pagina_categoria}=    Set Variable    Electronicos - Amazon
     Should Contain    ${pagina_categoria}    ${DEPARTAMENTO}
     Log    Página de departamento acessada corretamente.
 
